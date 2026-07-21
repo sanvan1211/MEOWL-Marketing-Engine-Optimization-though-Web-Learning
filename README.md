@@ -3,7 +3,7 @@ MEOWL (Marketing Engine &amp; Optimization through Web Learning) is a recommenda
 
 <img width="200" height="200" alt="Screenshot 2026-07-21 13 57 48" src="https://github.com/user-attachments/assets/6a0cd102-89a3-415d-8292-1ff183986790" />
 
-####MEOWL
+#### MEOWL
 **M**arketing **E**ngine & **O**ptimization through **W**eb **L**earning
 
 ## What is this?
