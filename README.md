@@ -25,6 +25,8 @@ if revenue dips every February, it says so and suggests a seasonal push instead 
 generic content calendar. If a competitor two miles away is running more reviews and 
 lower prices, it flags that specific gap.
 
+Also, MEOWL is as much a learning project as a product: built to develop real skill in SQL/database design, applied marketing analysis, and AI integration (RAG, prompt engineering,etc.). The goal is to understand why each piece works and gain fluency. 
+
 ## How it works
 1. Business owner uploads revenue data (CSV, v1)
 2. Data is parsed and stored per-customer (Supabase, with row-level security for isolation)
@@ -45,6 +47,4 @@ on their historical revenue) to feed predictive signals into the RAG pipeline,
 separate from and complementary to the LLM analysis layer.
 
 ## Tech stack
-Next.js, Supabase (PostgreSQL + Auth + Row Level Security), Claude API
-
-MEOWL is as much a learning project as a product: built to develop real skill in SQL/database design, applied marketing analysis, and AI integration (RAG, prompt design, knowing where an LLM should and shouldn't be used). The goal is to understand why each piece works, not just ship a working app.
+Next.js, Supabase (PostgreSQL + Auth + Row Level Security), Anthropic Claude API
